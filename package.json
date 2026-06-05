@@ -1,0 +1,19 @@
+{
+  "name": "saree-business-website",
+  "version": "1.0.0",
+  "description": "A full-stack website for saree business management and sales",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run backend & npm run frontend",
+    "frontend": "cd frontend && npm start",
+    "backend": "cd backend && npm start",
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  },
+  "keywords": [
+    "saree",
+    "ecommerce",
+    "business"
+  ],
+  "author": "",
+  "license": "ISC"
+}
